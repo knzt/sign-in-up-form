@@ -7,7 +7,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {},
+      backgroundImage: {
+        'main-bg': "url('../public/assets/images/background.png')",
+      },
     },
   },
   plugins: [],

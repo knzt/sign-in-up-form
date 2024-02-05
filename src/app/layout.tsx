@@ -19,7 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='pt-BR'>
-      <body className={poppins.className}>{children}</body>
+      <body
+        className={`${poppins.className} bg-main-bg h-screen w-full bg-cover`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
