@@ -1,3 +1,5 @@
+import { redirect } from 'next/navigation';
+
 export default function Home() {
-  return <main className='h-screen w-full backdrop-blur-md'>ok</main>;
+  return redirect('/login');
 }
